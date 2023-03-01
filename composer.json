@@ -1,0 +1,6 @@
+{
+    "require": {
+        "michelf/php-markdown": "^2.0",
+        "peridot-php/peridot": "^1.19"
+    }
+}
