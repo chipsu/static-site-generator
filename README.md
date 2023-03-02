@@ -10,6 +10,12 @@ See example folder
 php build.php <src> <dst>
 ```
 
+## Docker
+```
+docker build -t static-site-generator .
+docker run --rm -it -v $PWD/example:/app/pages:ro -v $PWD/build:/app/build static-site-generator
+```
+
 ## TODO
 - Fix default templates
 - Image optimization
